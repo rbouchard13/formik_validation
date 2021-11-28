@@ -31,7 +31,7 @@ function App() {
         <div>Password</div>
         <input name="pswField" id="pswField" type="text" onChange={formik.handleChange} value={formik.values.pswField}/>
         {formik.errors.pswField ? <div style={{color: 'red'}}>{formik.errors.pswField}</div>: null}
-        <button type="submitBtn" id="submitBtn">Submit</button>
+        <button type="submit" id="submitBtn">Submit</button>
       </form>
     </div>
   );
